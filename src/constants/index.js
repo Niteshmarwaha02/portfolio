@@ -23,6 +23,13 @@ import {
     jobit,
     tripguide,
     threejs,
+    heartdisease,
+    metaversereact,
+    pricepredictor,
+    scikitlearn,
+    pandas,
+    numpy,
+    matplotlib,
 } from "../assets";
 
 export const navLinks = [
@@ -46,7 +53,7 @@ const services = [
         icon: web,
     },
     {
-        title: "React Native Developer",
+        title: "React.Js Developer",
         icon: mobile,
     },
     {
@@ -54,7 +61,7 @@ const services = [
         icon: backend,
     },
     {
-        title: "Content Creator",
+        title: "ML Developer",
         icon: creator,
     },
 ];
@@ -72,18 +79,18 @@ const technologies = [
         name: "JavaScript",
         icon: javascript,
     },
-    {
-        name: "TypeScript",
-        icon: typescript,
-    },
+    // {
+    //     name: "TypeScript",
+    //     icon: typescript,
+    // },
     {
         name: "React JS",
         icon: reactjs,
     },
-    {
-        name: "Redux Toolkit",
-        icon: redux,
-    },
+    // {
+    //     name: "Redux Toolkit",
+    //     icon: redux,
+    // },
     {
         name: "Tailwind CSS",
         icon: tailwind,
@@ -104,13 +111,29 @@ const technologies = [
         name: "git",
         icon: git,
     },
+    // {
+    //     name: "figma",
+    //     icon: figma,
+    // },
+    // {
+    //     name: "docker",
+    //     icon: docker,
+    // },
     {
-        name: "figma",
-        icon: figma,
+        name: "scikitlearn",
+        icon: scikitlearn,
     },
     {
-        name: "docker",
-        icon: docker,
+        name: "matplotlib",
+        icon: matplotlib,
+    },
+    {
+        name: "pandas",
+        icon: pandas,
+    },
+    {
+        name: "numpy",
+        icon: numpy,
     },
 ];
 
@@ -198,58 +221,58 @@ const testimonials = [
 
 const projects = [
     {
-        name: "Car Rent",
+        name: "Heart Disease Predictor",
         description:
-            "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+            "A Machine Learning model which is based on the real life data to predict the heart disease risk of a person by taking some basic medical details.",
         tags: [
             {
-                name: "react",
+                name: "Python",
                 color: "blue-text-gradient",
             },
             {
-                name: "mongodb",
+                name: "Matplotlib",
                 color: "green-text-gradient",
             },
             {
-                name: "tailwind",
+                name: "scikit-learn",
                 color: "pink-text-gradient",
             },
         ],
-        image: carrent,
-        source_code_link: "https://github.com/",
+        image: heartdisease,
+        source_code_link: "https://github.com/Niteshmarwaha02/heart-disease-possibility",
     },
     {
-        name: "Job IT",
+        name: "Price Predictor",
         description:
-            "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+            "A Machine Learning Model based on the real life data of over 400,000 vehicles. It predicts the selling price of the vehicle by taking some general details of the vehicles.",
         tags: [
             {
-                name: "react",
+                name: "Python",
                 color: "blue-text-gradient",
             },
             {
-                name: "restapi",
+                name: "Regressor",
                 color: "green-text-gradient",
             },
             {
-                name: "scss",
+                name: "Scikit-learn",
                 color: "pink-text-gradient",
             },
         ],
-        image: jobit,
-        source_code_link: "https://github.com/",
+        image: pricepredictor,
+        source_code_link: "https://github.com/Niteshmarwaha02/price-estimator",
     },
     {
-        name: "Trip Guide",
+        name: "METAVERSE",
         description:
-            "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+            "A React.JS website which takes you on the tour of the discovering the possibilities of the METAVERSE",
         tags: [
             {
-                name: "nextjs",
+                name: "React.js",
                 color: "blue-text-gradient",
             },
             {
-                name: "supabase",
+                name: "JavaScript",
                 color: "green-text-gradient",
             },
             {
@@ -257,8 +280,8 @@ const projects = [
                 color: "pink-text-gradient",
             },
         ],
-        image: tripguide,
-        source_code_link: "https://github.com/",
+        image: metaversereact,
+        source_code_link: "https://metaverse-two-rose.vercel.app/",
     },
 ];
 

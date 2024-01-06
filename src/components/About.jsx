@@ -56,8 +56,8 @@ const About = () => {
         className="mt-4 text-secondary text-[17px]  max-w-3xl leading-[30px]"
       >
         Hello! I'm Nitesh, a passionate software developer
-        specializing in JavaScript. With experience in React,
-        Node.js, and Three.js, I'm a lifelong learner in the exciting coding
+        specializing in Java and JavaScript. With experience in React,
+        Node.js, and Data-Science, I'm a lifelong learner in the exciting coding
         world. I thrive on collaboration and crafting efficient, user-friendly
         solutions for real-world challenges. Let's team up to bring your ideas
         to life!
