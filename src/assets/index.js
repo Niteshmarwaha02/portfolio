@@ -21,6 +21,10 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import scikitlearn from "./tech/scikitlearn.png";
+import pandas from "./tech/pandas.png";
+import numpy from "./tech/numpy.png";
+import matplotlib from "./tech/matplotlib.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -30,6 +34,9 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import heartdisease from "./heartdisease.png";
+import metaversereact from "./metaversereact.png";
+import pricepredictor from "./pricepredictor.png";
 
 export {
   logo,
@@ -61,4 +68,11 @@ export {
   carrent,
   jobit,
   tripguide,
+  pricepredictor,
+  metaversereact,
+  heartdisease,
+  numpy,
+  pandas,
+  matplotlib,
+  scikitlearn,
 };
